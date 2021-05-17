@@ -1,7 +1,6 @@
 # Monthly performance report
 
-Monthly performance report is a simple Java console application that generates monthly performance reports. This application is implement for MentorMate as next step to the interview.
-
+Monthly performance report is a simple Java console application that generates monthly performance reports.
 ## How does ot works?
 
  - Receive a command-line argument that is path to JSON data file (format provided
