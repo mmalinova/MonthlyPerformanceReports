@@ -1,8 +1,7 @@
 # Monthly performance report
 
-Monthly performance report is a simple Java console application that generates monthly performance reports. This application is implement for MentorMate as next step to the interview.
-
-## How does ot works?
+Monthly performance report is a simple Java console application that generates monthly performance reports.
+## How does it works?
 
  - Receive a command-line argument that is path to JSON data file (format provided
 below):
@@ -49,7 +48,7 @@ David Prowess, 12.5
     - Score - result of the evaluation;
     
 ### Resulting report file
-That file should contain only employees that:
+That file contain only employees that:
 1. have sales period that is equal or less than the periodLimit property;
 2. have score that is within the top X percent of the results, where X is defined by the
 topPerformersThreshold property of the report definition.
