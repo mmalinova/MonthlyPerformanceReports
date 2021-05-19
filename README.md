@@ -48,7 +48,7 @@ David Prowess, 12.5
     - Score - result of the evaluation;
     
 ### Resulting report file
-That file should contain only employees that:
+That file contain only employees that:
 1. have sales period that is equal or less than the periodLimit property;
 2. have score that is within the top X percent of the results, where X is defined by the
 topPerformersThreshold property of the report definition.
