@@ -1,7 +1,7 @@
 # Monthly performance report
 
 Monthly performance report is a simple Java console application that generates monthly performance reports.
-## How does ot works?
+## How does it works?
 
  - Receive a command-line argument that is path to JSON data file (format provided
 below):
