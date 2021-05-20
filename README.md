@@ -1,7 +1,7 @@
 # Monthly performance report
 
 Monthly performance report is a simple Java console application that generates monthly performance reports.
-## How does it works?
+## How does it work?
 
  - Receive a command-line argument that is path to JSON data file (format provided
 below):
@@ -48,7 +48,7 @@ David Prowess, 12.5
     - Score - result of the evaluation;
     
 ### Resulting report file
-That file contain only employees that:
+That file contains only employees that:
 1. have sales period that is equal or less than the periodLimit property;
 2. have score that is within the top X percent of the results, where X is defined by the
 topPerformersThreshold property of the report definition.
@@ -58,4 +58,3 @@ The score is calculated based on the following rules:
 Score = totalSales/salesPeriod*experienceMultiplier
 2. If useExperienceMultiplier is set to false:
 Score = totalSales/salesPeriod
-  
